@@ -1,0 +1,77 @@
+.map_zones_container{
+	position: relative;
+}
+	
+#map_region{
+	width: 800px;
+	float: left;
+}
+	
+.legend_region{
+	width: 305px;
+	float: right;
+	background: #F0F0F0;
+	border: 1px solid #DCD8D6;
+	font-size: 15px;
+	line-height: 20px;
+	margin: 0 0 29px;
+}
+
+.legend_region ol li{
+	list-style-position: outside;
+}
+
+.legend_region ol li{
+	font-weight: normal;
+	font-size: .9em;
+}
+
+#content .legend_region ol li a{
+	color: #423F3F;
+   	text-decoration: none;
+}
+
+#content .legend_region ol li a:hover{
+	color: #EFAE00;
+}
+
+.zone_content{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #000033;
+    display: none;
+    height: 410px;
+    left: 54px;
+    padding: 20px;
+    position: absolute;
+    top: 40px;
+    width: 651px;
+    z-index: 99999;
+}
+
+.map_legend{
+	padding: 10px 10px 10px 30px;
+	margin-bottom: 0px !important;
+	
+}
+
+
+.close_zone_content{
+	border: 1px solid #CCCCCC;
+    -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+    padding: 2px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+	font-size: .9em;
+
+}
+
+.close_zone_content:hover{
+	text-decoration: none;
+}
+
+
+
+
